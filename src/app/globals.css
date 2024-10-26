@@ -1,0 +1,96 @@
+.search {
+  display: flex;
+}
+
+body {
+  background-color: rgb(5, 5, 77);
+  color: lightgrey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+
+.search input {
+  height: 30px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.countries {
+  margin-top: 20px;
+  font-size: 20px;
+  overflow: scroll;
+  height: 1010px;
+}
+
+.country {
+  border-top: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 450px;
+}
+
+.country:hover {
+  background-color: rgb(75, 75, 147);
+  cursor: pointer;
+}
+
+.inforSeacrh {
+  margin-right: 300px;
+  border-right: 1px solid lightgray;
+  padding: 50px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.borders1 {
+  display: flex;
+  gap: 5px;
+}
+
+.allInfos p {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.allInfos a {
+  font-weight: 600;
+  color: yellow;
+}
+
+.flags {
+  border: 1px solid black;
+}
+
+.allInfos :nth-child(1) {
+  font-weight: 600;
+  color: yellow;
+}
+
+.allInfos :nth-child(2) {
+  font-weight: 500;
+  color: lightskyblue;
+}
+
+.allInfos div {
+  display: flex;
+  gap: 5px;
+}
+
+.borders1 {
+  font-weight: 600;
+  color: yellow;
+}
+
+h2{
+  font-weight: 700;
+  color: yellow;
+}
